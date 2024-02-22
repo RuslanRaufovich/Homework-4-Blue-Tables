@@ -1,0 +1,151 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Табличка</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 50px 100px;
+}
+
+th {
+    background-color: rgb(157, 221, 247);
+}
+
+tbody td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+tr:nth-child(even) {
+    background-color: rgb(223, 222, 222);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(250, 249, 249);
+}
+
+ thead tr {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+} 
+
+tbody th {
+    position: sticky;
+    left: 0;
+} 
+</style>
+<body>
+    <table>
+       <thead>
+         <tr>
+   <th> </th>
+       <th>Header 1</th>
+       <th>Header 2</th>
+       <th>Header 3</th>
+       <th>Header 4</th>
+       <th>Header 5</th>         
+       </tr>
+       </thead>
+       <tbody>
+         <tr>
+            <th>Line 1</th>
+            <td>23</td>
+            <td>123</td>
+            <td>43</td>
+            <td>12</td>
+            <td>76</td>
+         </tr>
+           <tr>
+        <th>Line 2</th>
+                <td>23</td>
+                <td>123</td>
+                <td>43</td>
+                <td>12</td>
+                <td>76</td>
+          </tr>
+          <tr>
+                <th>Line 2</th>
+                <td>34</td>
+                <td>63</td>
+                <td>25</td>
+                <td>7</td>
+                <td>23</td>
+          </tr>
+          <tr>
+                <th>Line 3</th>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+          </tr>
+          <tr>
+                <th>Line 4</th>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+          </tr>
+          <tr>
+                <th>Line 5</th>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+          </tr>
+          <tr>
+                <th>Line 6</th>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+          </tr>
+          <tr>
+                <th>Line 1</th>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+          </tr>
+          <tr>
+                <th>Line 7</th>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+         </tr>
+         <tr>
+                <th>Line 8</th>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+        </tr>        
+      </tbody>
+    </table>
+</body>
+</html>
